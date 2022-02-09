@@ -79,7 +79,7 @@ VOLUME ["/app-data"]
 CMD gunicorn -b :$PORT -c gunicorn.conf.py main:app
 ```
 
-#### Build your image
+#### Build your image:
 Normally, image name convention is something like: `
 {company/application-name}:{version-number}`. In the demo, I just use `{application-name}:{version-number}`
 
